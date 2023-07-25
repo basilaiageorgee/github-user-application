@@ -20,7 +20,7 @@ const SearchBar = () => {
       method: "get",
       url: `https://api.github.com/users/${username}`,
       headers: {
-        Authorization: `Bearer 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`,
+        Authorization: `Bearer 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`,
         "Content-Type": "application/json",
       },
     })
