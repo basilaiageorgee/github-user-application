@@ -1,0 +1,180 @@
+.container-info1{
+    display: flex;
+    gap: 20px;
+
+    h1{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    p{
+        margin: 0;
+        margin-top: 7px;
+        color: #697C9A;
+    }
+
+    img{
+        width: 100px;
+        border-radius: 50%;
+    }
+}
+
+.bio-DARK{
+    p{
+        color: white;
+    }
+}
+
+.infographics-parent{
+    display: inline-block;
+    width: 640px;
+    position: absolute;
+    left: 50%;
+    top: 27%;
+    transform: translate(-50%);
+    background-color: white;
+    border-radius: 15px;
+    padding: 50px 30px;
+}
+
+.infographics-parent-DARK{
+        background-color: #1E2A47;
+
+}
+
+.div-name-DARK{
+    color: white;
+
+    p{
+        color: white;
+    }
+
+}
+.container-info2{
+    margin-top: 50px;
+}
+
+p{
+    color: #697C9A;
+
+}
+
+.div-name{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    
+
+    p{
+        margin-top: 13px;
+    }
+
+    a{
+        color: #0079FF;
+    }
+}
+
+.bio{
+    max-width: 600px;
+    margin-left: 120px;
+}
+
+.github-data{   
+    background-color: #F6F8FF;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 0 110px 0 30px;
+    margin-top: 50px;
+
+    h3{
+        margin-top: 0;
+    }
+    p{
+        margin-bottom: 10px;
+    }
+}
+
+
+.other-data{
+    display: flex;
+    color: #697C9A;
+    justify-content: space-between;
+    padding-right: 70px;
+    margin-top: 20px;
+
+    a{
+        color: #697C9A;
+    }
+}
+
+
+.data-child{
+    display: flex;
+    align-items: center;
+
+    p{
+        padding: 0 10px;
+    }
+}
+
+
+
+.github-data-DARK{
+    background-color: #2B3442;
+
+    h3{
+        color: white;
+    }
+}
+
+
+@media only screen and (max-width: 750px) {
+    .infographics-parent{
+        width: 540px;
+        
+    }
+    .div-name{
+        display: block;
+    }
+    .bio{
+        margin: 0;
+        margin-top: 30px;
+    }
+
+      
+    img{
+        height: 100px;
+    }
+    
+    .container-info1 {
+        align-items: center;
+      }
+}
+
+@media only screen and (max-width: 620px) {
+    .infographics-parent{
+        width: 350px;
+        
+    }
+
+    .other-data{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .github-data{   
+        border-radius: 10px;
+        padding: 0px 30px;
+        margin-top: 50px;
+    }  
+    
+    img{
+        height: 100px;
+    }
+
+    .container-info1 {
+        align-items: center;
+      }
+    
+}
