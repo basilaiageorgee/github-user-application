@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/github-user-application/static/css/main.93a475ba.css",
+    "main.js": "/github-user-application/static/js/main.c1425ec4.js",
+    "static/media/octocat.png": "/github-user-application/static/media/octocat.41d3e4d3029c7eedfa7c.png",
+    "index.html": "/github-user-application/index.html",
+    "main.93a475ba.css.map": "/github-user-application/static/css/main.93a475ba.css.map",
+    "main.c1425ec4.js.map": "/github-user-application/static/js/main.c1425ec4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93a475ba.css",
+    "static/js/main.c1425ec4.js"
+  ]
+}
