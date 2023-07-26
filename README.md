@@ -1,3 +1,8 @@
+[LIVE SITE URL: ](https://github-user-1.netlify.app/)
+
+In order to run locally make .env file in root of aplicatiion with variable REACT_APP_GITHUB_TOKEN: *your github token here*
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
