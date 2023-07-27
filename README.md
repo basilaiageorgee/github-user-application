@@ -1,4 +1,4 @@
-[CLICK TO VIEW LIVE SITE](https://github-user-1.netlify.app/).
+# [CLICK TO VIEW LIVE SITE](https://github-user-1.netlify.app/).
 
 In order to run locally make .env file in root of aplicatiion with variable REACT_APP_GITHUB_TOKEN: *your github token here*
 
